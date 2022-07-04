@@ -1,0 +1,750 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{85BE420E-42A7-486C-A7D2-7AD0F70BFE89}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BizimProje</RootNamespace>
+    <AssemblyName>BizimProje</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="hazir Olanlar\HastaBilgileriniDuzeltForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\HastaBilgileriniDuzeltForm.Designer.cs">
+      <DependentUpon>HastaBilgileriniDuzeltForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hazir Olanlar\DoktorSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\DoktorSil.Designer.cs">
+      <DependentUpon>DoktorSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hazir Olanlar\DoktorBilgileriniDuzeltForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\DoktorBilgileriniDuzeltForm.Designer.cs">
+      <DependentUpon>DoktorBilgileriniDuzeltForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hazir Olanlar\DoktorDuzelt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\DoktorDuzelt.Designer.cs">
+      <DependentUpon>DoktorDuzelt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hazir Olanlar\AsiBilgileriDuzelt.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\AsiBilgileriDuzelt.Designer.cs">
+      <DependentUpon>AsiBilgileriDuzelt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hazir Olanlar\AsiDuzeltme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\AsiDuzeltme.Designer.cs">
+      <DependentUpon>AsiDuzeltme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hazir Olanlar\AsiSilme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\AsiSilme.Designer.cs">
+      <DependentUpon>AsiSilme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hazir Olanlar\KoronaDuzelt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\KoronaDuzelt.Designer.cs">
+      <DependentUpon>KoronaDuzelt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hazir Olanlar\KoronaTestBilgileriDuzelt.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\KoronaTestBilgileriDuzelt.Designer.cs">
+      <DependentUpon>KoronaTestBilgileriDuzelt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Asi.cs" />
+    <Compile Include="hazir Olanlar\AsiEkleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\AsiEkleme.Designer.cs">
+      <DependentUpon>AsiEkleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hazir Olanlar\Ası-islemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\Ası-islemleri.Designer.cs">
+      <DependentUpon>Ası-islemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hazir Olanlar\BugunHasta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\BugunHasta.Designer.cs">
+      <DependentUpon>BugunHasta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hazir Olanlar\ButunHastalar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\ButunHastalar.Designer.cs">
+      <DependentUpon>ButunHastalar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Doktor.cs" />
+    <Compile Include="hazir Olanlar\DoktorEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\DoktorEkle.Designer.cs">
+      <DependentUpon>DoktorEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hazir Olanlar\DoktorEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\DoktorEkrani.Designer.cs">
+      <DependentUpon>DoktorEkrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hazir Olanlar\Doktorİslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\Doktorİslemleri.Designer.cs">
+      <DependentUpon>Doktorİslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hazir Olanlar\HastaAdiileGüncelleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\HastaAdiileGüncelleme.Designer.cs">
+      <DependentUpon>HastaAdiileGüncelleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\kisi.cs" />
+    <Compile Include="Models\metotlar.cs" />
+    <Compile Include="hazir Olanlar\AsiArama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\PoliklinikBilgileriDuzelt.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\PoliklinikBilgileriDuzelt.Designer.cs">
+      <DependentUpon>PoliklinikBilgileriDuzelt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hazir Olanlar\PoliklinikGoruntuleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\PoliklinikGoruntuleme.designer.cs">
+      <DependentUpon>PoliklinikGoruntuleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hazir Olanlar\PoliklinikGuncelleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\PoliklinikGuncelleme.designer.cs">
+      <DependentUpon>PoliklinikGuncelleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hazir Olanlar\PoliklinikSilme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\PoliklinikSilme.designer.cs">
+      <DependentUpon>PoliklinikSilme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hazir Olanlar\RandeveGuncelleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\RandeveGuncelleme.designer.cs">
+      <DependentUpon>RandeveGuncelleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hazir Olanlar\RandevuBilgileriDuzelt.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\RandevuBilgileriDuzelt.Designer.cs">
+      <DependentUpon>RandevuBilgileriDuzelt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hazir Olanlar\RandevuSilme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\RandevuSilme.designer.cs">
+      <DependentUpon>RandevuSilme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hazir Olanlar\SekreterEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\SekreterEkle.Designer.cs">
+      <DependentUpon>SekreterEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hazir Olanlar\SekreterSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\SekreterSil.Designer.cs">
+      <DependentUpon>SekreterSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hazir Olanlar\SekreterDuzelt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\SekreterDuzelt.Designer.cs">
+      <DependentUpon>SekreterDuzelt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hazir Olanlar\SekreterDuzeltForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\SekreterDuzeltForm.Designer.cs">
+      <DependentUpon>SekreterDuzeltForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hazir Olanlar\Sekreterİslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\Sekreterİslemleri.Designer.cs">
+      <DependentUpon>Sekreterİslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hazir Olanlar\GirisEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\GirisEkrani.Designer.cs">
+      <DependentUpon>GirisEkrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Hasta.cs" />
+    <Compile Include="hazir Olanlar\HastaEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\HastaEkle.Designer.cs">
+      <DependentUpon>HastaEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hazir Olanlar\HastaSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\HastaSil.Designer.cs">
+      <DependentUpon>HastaSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hazir Olanlar\Hastaİslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\Hastaİslemleri.Designer.cs">
+      <DependentUpon>Hastaİslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\HESkodu.cs" />
+    <Compile Include="hazir Olanlar\KoronaTestiİslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\KoronaTestiİslemleri.Designer.cs">
+      <DependentUpon>KoronaTestiİslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hazir Olanlar\KoronaTestSonuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\KoronaTestSonuc.Designer.cs">
+      <DependentUpon>KoronaTestSonuc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Korona_Testi.cs" />
+    <Compile Include="Models\Poliklinik.cs" />
+    <Compile Include="hazir Olanlar\PoliklinikEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\PoliklinikEkle.Designer.cs">
+      <DependentUpon>PoliklinikEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hazir Olanlar\Poliklinikİslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\Poliklinikİslemleri.Designer.cs">
+      <DependentUpon>Poliklinikİslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Models\Randevu.cs" />
+    <Compile Include="hazir Olanlar\RandevuOlustur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\RandevuOlustur.Designer.cs">
+      <DependentUpon>RandevuOlustur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hazir Olanlar\Randevuİslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\Randevuİslemleri.Designer.cs">
+      <DependentUpon>Randevuİslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Rapor.cs" />
+    <Compile Include="hazir Olanlar\RaporOlusturma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\RaporOlusturma.Designer.cs">
+      <DependentUpon>RaporOlusturma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Sekreter.cs" />
+    <Compile Include="hazir Olanlar\SekreterEkrani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\SekreterEkrani.Designer.cs">
+      <DependentUpon>SekreterEkrani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="hazir Olanlar\TestYaptirma.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="hazir Olanlar\TestYaptirma.Designer.cs">
+      <DependentUpon>TestYaptirma.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="hazir Olanlar\HastaBilgileriniDuzeltForm.resx">
+      <DependentUpon>HastaBilgileriniDuzeltForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\DoktorSil.resx">
+      <DependentUpon>DoktorSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\DoktorBilgileriniDuzeltForm.resx">
+      <DependentUpon>DoktorBilgileriniDuzeltForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\DoktorDuzelt.resx">
+      <DependentUpon>DoktorDuzelt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\AsiArama.resx">
+      <DependentUpon>AsiArama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\AsiBilgileriDuzelt.resx">
+      <DependentUpon>AsiBilgileriDuzelt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\AsiDuzeltme.resx">
+      <DependentUpon>AsiDuzeltme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\AsiEkleme.resx">
+      <DependentUpon>AsiEkleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\AsiSilme.resx">
+      <DependentUpon>AsiSilme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\Ası-islemleri.resx">
+      <DependentUpon>Ası-islemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\BugunHasta.resx">
+      <DependentUpon>BugunHasta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\ButunHastalar.resx">
+      <DependentUpon>ButunHastalar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\DoktorEkle.resx">
+      <DependentUpon>DoktorEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\DoktorEkrani.resx">
+      <DependentUpon>DoktorEkrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\Doktorİslemleri.resx">
+      <DependentUpon>Doktorİslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\HastaAdiileGüncelleme.resx">
+      <DependentUpon>HastaAdiileGüncelleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\PoliklinikBilgileriDuzelt.resx">
+      <DependentUpon>PoliklinikBilgileriDuzelt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\PoliklinikGoruntuleme.resx">
+      <DependentUpon>PoliklinikGoruntuleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\PoliklinikGuncelleme.resx">
+      <DependentUpon>PoliklinikGuncelleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\PoliklinikSilme.resx">
+      <DependentUpon>PoliklinikSilme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\KoronaDuzelt.resx">
+      <DependentUpon>KoronaDuzelt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\KoronaTestBilgileriDuzelt.resx">
+      <DependentUpon>KoronaTestBilgileriDuzelt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\RandeveGuncelleme.resx">
+      <DependentUpon>RandeveGuncelleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\RandevuBilgileriDuzelt.resx">
+      <DependentUpon>RandevuBilgileriDuzelt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\RandevuSilme.resx">
+      <DependentUpon>RandevuSilme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\SekreterEkle.resx">
+      <DependentUpon>SekreterEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\SekreterSil.resx">
+      <DependentUpon>SekreterSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\SekreterDuzelt.resx">
+      <DependentUpon>SekreterDuzelt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\SekreterDuzeltForm.resx">
+      <DependentUpon>SekreterDuzeltForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\Sekreterİslemleri.resx">
+      <DependentUpon>Sekreterİslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\GirisEkrani.resx">
+      <DependentUpon>GirisEkrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\HastaEkle.resx">
+      <DependentUpon>HastaEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\HastaSil.resx">
+      <DependentUpon>HastaSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\Hastaİslemleri.resx">
+      <DependentUpon>Hastaİslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\KoronaTestiİslemleri.resx">
+      <DependentUpon>KoronaTestiİslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\KoronaTestSonuc.resx">
+      <DependentUpon>KoronaTestSonuc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\PoliklinikEkle.resx">
+      <DependentUpon>PoliklinikEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\Poliklinikİslemleri.resx">
+      <DependentUpon>Poliklinikİslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="hazir Olanlar\RandevuOlustur.resx">
+      <DependentUpon>RandevuOlustur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\Randevuİslemleri.resx">
+      <DependentUpon>Randevuİslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\RaporOlusturma.resx">
+      <DependentUpon>RaporOlusturma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\SekreterEkrani.resx">
+      <DependentUpon>SekreterEkrani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="hazir Olanlar\TestYaptirma.resx">
+      <DependentUpon>TestYaptirma.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20200817-aile-hekimleri-saglik-bakanligi-maaslarini-kesti-797693-5e35ff868175ee4d3189.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\323.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medical.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adc-therapeutics_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\syringe_125px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shutterstock_370328207-1400x480.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo-1584982751601-97dcc096659c %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2020-11-20 at 23.45.35.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wall-wallpaper-concrete-colored-painted-textured-concept.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\240_F_290202665_TDVsNqcfhNCFBKVWATlBDylIqEHt1myK.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2020-11-21 at 22.43.49.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2020-11-21 at 23.04.40.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2020-11-21 at 23.36.23.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2020-11-21 at 23.52.58.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\33.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\34.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\959.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sekreter-icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hasta-icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ası-arama-icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ası-guncelleme-icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ası-silme-icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ası-ekleme-icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RandevuGuncelleme.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RandevuOlusturma.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\butun-hasta-goruntuleme.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tahlil-sonucu-goruntuleme.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bugun-hasta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rapor-olusturma.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\korona-test-sonucu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doktor-ekle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doktor-guncelleme.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doktor-silme.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hasta-adi-ile-arama.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hasta-tc-ile-arama.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hasta-ekle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hasta-guncelleme.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hasta-silme.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hastayı-Bul.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\butun-hasta-goruntuleme1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sekreter-ekle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sekreter-guncelleme.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sekreter-silme.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\test-yaptirma.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\test-sonucu-sorgula.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poliklinik-ekle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poliklinik-guncelleme.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poliklinik-goruntuleme.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poliklinik-silme.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poliklinik-islemleri.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asi-islemleri.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\korona-testi-islemleri.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2112.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rapor-olusturma %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\korona-test-sonucu %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cikis-icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giris.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medical-logo-4EE085437F-seeklogo.com.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giris-2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sa54.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sa55.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\Database\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_48px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_delete_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_edit_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sekreter-islemleri.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\test-sonucu-gir.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_print_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print_100px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20200817-aile-hekimleri-saglik-bakanligi-maaslarini-kesti-797693-5e35ff868175ee4d31891.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3231.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\331.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\341.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\41.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

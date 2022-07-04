@@ -1,0 +1,143 @@
+C:\Users\khale\source\repos\BizimProje\BizimProje\bin\Debug\BizimProje.exe.config
+C:\Users\khale\source\repos\BizimProje\BizimProje\bin\Debug\BizimProje.exe
+C:\Users\khale\source\repos\BizimProje\BizimProje\bin\Debug\BizimProje.pdb
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.csprojAssemblyReference.cache
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.AdminEkran.resources
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.Properties.Resources.resources
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.csproj.GenerateResource.cache
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.csproj.CoreCompileInputs.cache
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.exe
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.pdb
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.DoktorEkle.resources
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.GirisEkrani.resources
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.SekreterEkle.resources
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.Sekreterİslemleri.resources
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.Doktorİslemleri.resources
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.HastaBilgileriDuzelt.resources
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.HastaEkle.resources
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.HastaSil.resources
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.HastayiBul.resources
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.Hastaİslemleri.resources
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.PoliklinikEkle.resources
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.Poliklinikİslemleri.resources
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.RandevuOlustur.resources
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.Randevuİslemleri.resources
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.SekreterEkrani.resources
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.KoronaTestiİslemleri.resources
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.TestYaptirma.resources
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.DoktorEkrani.resources
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.Form2.resources
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.AsiEkleme.resources
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.Form1.resources
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.ButunHastalar.resources
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.KoronaTestSonuc.resources
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.RaporOlusturma.resources
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.TahlilSonucu.resources
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.HastaAdiilearama.resources
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.HastaAdiileGüncelleme.resources
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.HastaTcileGuncelleme.resources
+C:\Users\khale\source\repos\BizimProje\BizimProje\obj\Debug\BizimProje.Form3.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.AsiEkleme.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.ButunHastalar.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.DoktorEkle.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.DoktorEkrani.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.Doktorİslemleri.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.GirisEkrani.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.HastaEkle.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.HastaSil.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.Hastaİslemleri.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.KoronaTestiİslemleri.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.KoronaTestSonuc.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.PoliklinikEkle.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.Poliklinikİslemleri.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.Properties.Resources.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.RandevuOlustur.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.Randevuİslemleri.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.RaporOlusturma.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.SekreterEkrani.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.TestYaptirma.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.csproj.GenerateResource.cache
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.csproj.CoreCompileInputs.cache
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.exe
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.pdb
+C:\BizimProje\BizimProje\bin\Debug\BizimProje.exe.config
+C:\BizimProje\BizimProje\bin\Debug\BizimProje.exe
+C:\BizimProje\BizimProje\bin\Debug\BizimProje.pdb
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.Asiislemleri.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.BugunHasta.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.AsiSilme.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.PoliklinikGoruntuleme.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.PoliklinikGuncelleme.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.PoliklinikSilme.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.RandeveGuncelleme.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.RandevuSilme.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.SekreterEkle.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.Sekreterİslemleri.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.AsiArama.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.AsiBilgileriDuzelt.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.AsiDuzeltme.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.DoktorDuzelt.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.DoktorBilgileriniDuzeltForm.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.DoktorSil.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.HastaBilgileriniDuzeltForm.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.HastaDuzelt.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.SekreterSil.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.SekreterDuzeltForm.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.SekreterDuzelt.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.PoliklinikBilgileriDuzelt.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.RandevuBilgileriDuzelt.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.KoronaDuzelt.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.KoronaTestBilgileriDuzelt.resources
+C:\BizimProje\BizimProje\obj\Debug\BizimProje.csprojAssemblyReference.cache
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\bin\Debug\BizimProje.exe.config
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\bin\Debug\BizimProje.exe
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\bin\Debug\BizimProje.pdb
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.csprojAssemblyReference.cache
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.HastaBilgileriniDuzeltForm.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.DoktorSil.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.DoktorBilgileriniDuzeltForm.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.DoktorDuzelt.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.AsiArama.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.AsiBilgileriDuzelt.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.AsiDuzeltme.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.AsiEkleme.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.AsiSilme.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.Asiislemleri.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.BugunHasta.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.ButunHastalar.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.DoktorEkle.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.DoktorEkrani.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.Doktorİslemleri.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.HastaDuzelt.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.PoliklinikBilgileriDuzelt.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.PoliklinikGoruntuleme.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.PoliklinikGuncelleme.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.PoliklinikSilme.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.KoronaDuzelt.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.KoronaTestBilgileriDuzelt.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.RandeveGuncelleme.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.RandevuBilgileriDuzelt.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.RandevuSilme.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.SekreterEkle.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.SekreterSil.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.SekreterDuzelt.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.SekreterDuzeltForm.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.Sekreterİslemleri.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.GirisEkrani.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.HastaEkle.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.HastaSil.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.Hastaİslemleri.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.KoronaTestiİslemleri.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.KoronaTestSonuc.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.PoliklinikEkle.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.Poliklinikİslemleri.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.Properties.Resources.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.RandevuOlustur.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.Randevuİslemleri.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.RaporOlusturma.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.SekreterEkrani.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.TestYaptirma.resources
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.csproj.GenerateResource.cache
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.csproj.CoreCompileInputs.cache
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.exe
+C:\Users\khale\OneDrive\سطح المكتب\Elektrik-Elektronik giriş\Görsel Programlama\Final ödevi\Proje Final\BizimProje\BizimProje\obj\Debug\BizimProje.pdb
